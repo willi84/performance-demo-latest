@@ -44,7 +44,7 @@
     "@rx-angular/cdk": "^1.0.0-alpha.10",
     "@rx-angular/state": "^1.4.4",
     "@rx-angular/template": "^1.0.0-beta.28",
-    "@scullyio/init": "0.0.28",
+    "@scullyio/init": "2.1.41",
     "@scullyio/ng-lib": "1.1.1",
     "@scullyio/scully": "1.1.1",
     "ngx-page-scroll": "^7.0.4",

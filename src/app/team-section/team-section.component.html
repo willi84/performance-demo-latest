@@ -1,0 +1,13 @@
+<div id="team" class="team-section">
+    <app-bg-image [image]="image"></app-bg-image>
+    <div class="team-section__wrapper">
+        <app-title [label]="title" type="dark"></app-title>
+        <div class="team-list">
+            <div class="person-card" *ngFor="let person of team" (click)="openDialog(person)">
+                <div class="person-img" [style.backgroundImage]="'url(' + person.photo + ')'"></div>
+                <div class="name">{{person.name}}</div>
+                <div class="company">{{person.company}}</div>
+            </div>
+        </div>
+    </div>
+</div>

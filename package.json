@@ -1,11 +1,13 @@
 {
   "name": "ng-girls-page",
   "version": "0.0.0",
-  "engines": {},
+  "engines": {
+    "node": "14.20.0"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "prebuild": "ng build --stats-json --prod",
+    "prebuild": "ng build --stats-json --configuration production",
     "build": "npm run scully && npm run sw-build && npm run static",
     "buildOld": "npm run scully -- --scanRoutes && npm run sw-build && npm run static",
     "postbuild": " npm run optimize",

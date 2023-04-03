@@ -1,7 +1,6 @@
 (under development)
 
 
-* URL azure: https://black-water-05ac71003.azurestaticapps.net/
 * vercel
 
 # new ngGirls page with Scully

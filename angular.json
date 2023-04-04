@@ -122,7 +122,6 @@
       }
     }
   },
-  "defaultProject": "ng-girls-page",
   "schematics": {
     "@schematics/angular:component": {
       "style": "scss"

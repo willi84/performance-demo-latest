@@ -8,6 +8,7 @@
     ExpiresByType image/gif "access plus 1 year"
     ExpiresByType image/png "access plus 1 year"
     ExpiresByType image/webp "access plus 1 year"
+    ExpiresByType image/avif "access plus 1 year"
     ExpiresByType image/svg+xml "access plus 1 year"
     ExpiresByType image/x-icon "access plus 1 year"
   
@@ -36,7 +37,7 @@
 # BROWSER CACHING USING CACHE-CONTROL HEADERS
 <ifModule mod_headers.c> 
     # One year for image and video files
-    <filesMatch ".(flv|gif|ico|jpg|jpeg|mp4|mpeg|png|svg|swf|webp|woff|woff2|eot|ttf|svg)$">
+    <filesMatch ".(flv|gif|ico|jpg|jpeg|mp4|mpeg|png|svg|swf|webp|avif|woff|woff2|eot|ttf|svg)$">
         Header set Cache-Control "max-age=31536000, public"
     </filesMatch>
 

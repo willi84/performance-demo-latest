@@ -23,9 +23,9 @@ mentors:
     company: STRATO
     photo: assets/people/you.webp
 partners:
-  - logo: assets/partners/angular-austria.webp
+  - logo: assets/partners/angular-austria-200.webp
     link: https://angular-austria.at/
-  - logo: assets/partners/ng-nights.webp
+  - logo: assets/partners/ng-nights-200.webp
     link: http://www.meetup.com/Angular-Nights/
 ---
 

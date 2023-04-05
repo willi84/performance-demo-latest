@@ -5,9 +5,10 @@
   },
   "version": 1,
   "newProjectRoot": "projects",
+  "defaultProject": "ng-girls-page",
   "projects": {
     "ng-girls-page": {
-      "projectType": "application",
+      "projectType": "application",      
       "schematics": {
         "@schematics/angular:component": {
           "style": "scss"

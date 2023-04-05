@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CocComponent implements OnInit {
 
-  cocImage = '../../../../assets/backgrounds/djangogirls.jpg';
+  cocImage = '../../../../assets/backgrounds/djangogirls/djangogirls-xl.webp';
   constructor() { }
 
   ngOnInit(): void {

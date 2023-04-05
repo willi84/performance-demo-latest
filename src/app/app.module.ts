@@ -30,7 +30,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {HttpClientModule} from '@angular/common/http';
 import { DialogPersonComponent } from './dialog-person/dialog-person.component';
 // import {FormsModule} from '@angular/forms';
-import {MatDialogModule} from '@angular/material/dialog';
+import {MatLegacyDialogModule as MatDialogModule} from '@angular/material/legacy-dialog';
 // import {MatFormFieldModule} from '@angular/material/form-field';
 // import {MatCardModule} from '@angular/material/card';
 

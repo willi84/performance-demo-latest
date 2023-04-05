@@ -6,7 +6,7 @@ module.exports = {
       "assets/**/*.{woff,woff2,webp,svg}",
       "manifest/**/*.*",
       "*.html",
-      "*.{jpg,png,eot,ttf,woff,woff2, webp}"
+      "*.{jpg,png,eot,ttf,woff,woff2, webp, avif}"
       // "*.{jpg,png,eot,svg,ttf,woff,woff2, webp}"
     ],
     "swDest": "dist/static/sw.js",

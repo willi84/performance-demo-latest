@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FaqComponent implements OnInit {
 
-  faqImage = '../../../../assets/backgrounds/djangogirls.jpg';
+  faqImage = '../../../../assets/backgrounds/djangogirls/djangogirls-xl.webp';
   constructor() { }
 
   ngOnInit(): void {
